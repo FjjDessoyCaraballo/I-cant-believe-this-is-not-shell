@@ -1,4 +1,4 @@
-# Minishell
+# I-cant-believe-this-is-not-shell
 
 A lightweight Unix shell implementation that replicates core functionality of bash, developed as part of the 42 School curriculum.
 
@@ -18,7 +18,7 @@ A lightweight Unix shell implementation that replicates core functionality of ba
 
 ## Overview
 
-Minishell is a simplified shell interpreter that provides a command-line interface for executing programs, managing processes, and interacting with the file system. It implements essential shell features including pipes, redirections, environment variables, and signal handling.
+I-cant-believe-this-is-not-shell is a simplified shell interpreter that provides a command-line interface for executing programs, managing processes, and interacting with the file system. It implements essential shell features including pipes, redirections, environment variables, and signal handling.
 
 ## Features
 
@@ -64,8 +64,9 @@ Minishell is a simplified shell interpreter that provides a command-line interfa
 
 ```bash
 # Clone the repository
-git clone https://github.com/FjjDessoyCaraballo/minishell
-cd minishell
+git clone https://github.com/FjjDessoyCaraballo/I-cant-believe-this-is-not-shell
+
+cd I-cant-believe-this-is-not-shell
 
 # Compile the project
 make
@@ -75,7 +76,7 @@ make
 ```
 
 ### Makefile Targets
-- `make` - Build the minishell executable
+- `make` - Build the I-cant-believe-this-is-not-shell executable
 - `make clean` - Remove object files
 - `make fclean` - Remove object files and executable
 - `make re` - Rebuild the project from scratch
@@ -171,7 +172,7 @@ echo "Path is: $PATH"
 ## Project Structure
 
 ```
-minishell/
+I-cant-believe-this-is-not-shell/
 ├── includes/
 │   ├── minishell.h     # Main header file
 │   └── token.h          # Token structure definitions
